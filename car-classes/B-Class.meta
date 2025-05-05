@@ -1,6 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <CHandlingDataMgr>
+
+<!--VEHICLES STATUS 
+             [-] In progress
+             [+] Completed 
+             [x] Broken
+
+
+[+] Albany Alpha, Model ID = "alpha"
+[+] Albany Buccaneer, Model ID = "buccaneer"
+[+] Albany Buccaneer Custom, Model ID = "buccaneer2"
+[+] Albany Hermes, Model ID = "hermes"
+[+] Albany V-STR, Model ID = "vstr"
+[+] Annis Savestra, Model ID = "savestra"
+[+] Annis ZR350, Model ID = "zr350"
+[+] Benefactor Schafter, Model ID = "schafter2"
+[+] Benefactor Schafter LWB, Model ID = "schafter4"
+[+] BF Raptor, Model ID = "raptor"
+[+] BF Weevil Custom, Model ID = "weevil2"
+[+] Bravado Banshee, Model ID = "banshee"
+[+] Bravado Gauntlet, Model ID = "gauntlet"
+[+] Bravado Gauntlet Redwood Race Car, Model ID = "gauntlet2"
+[+] Bravado Greenwood, Model ID = "greenwood"
+[+] Ocelot Lynx, Model ID = "lynx"
+[+] Declasse Tahoma Coupe, Model ID = "tahoma"
+[+] Declasse Yosemite, Model ID = "yosemite"
+[+] Dewbauchee Exemplar, Model ID = "exemplar"
+[+] Dewbauchee Rapid GT, Model ID = "rapidgt"
+[+] Dewbauchee Rapid GT Convertible, Model ID = "rapidgt2"
+[+] Dewbauchee Rapid GT Classic, Model ID = "rapidgt3"
+[+] Dinka Kanjo, Model ID = "kanjo"
+[+] Dinka RT3000, Model ID = "rt3000"
+[+] Emperor Vectre, Model ID = "vectre"
+[+] Enus Cognoscenti Cabrio, Model ID = "cogcabrio"
+[+] Enus Cognoscenti 55, Model ID = "cog55"
+[+] Enus Stafford, Model ID = "stafford"
+[+] Grotti Brioso, Model ID = "brioso"
+[+] Vapid Clique, Model ID = "clique"
+[+] Vapid Hotknife, Model ID = "hotknife"
+[+] Vapid Hustler, Model ID = "hustler"
+[+] Hijak Khamelion, Model ID = "khamelion"
+[+] Imponte Nightshade, Model ID = "nightshade"
+[+] Imponte Ruiner ZZ-8, Model ID = "ruiner4"
+[+] Invetero Coquette Classic, Model ID = "coquette2"
+[+] Invetero Coquette Blackfin, Model ID = "coquette3"
+[+] Karin Futo, Model ID = "futo"
+[+] Karin Futo GTX, Model ID = "futo2"
+[+] Karin Previon, Model ID = "previon"
+[+] Karin z190, Model ID = "z190"
+[+] Lampadati Felon, Model ID = "felon"
+[+] Lampadati Felon GT, Model ID = "felon2"
+[+] Lampadato Furore GT, Model ID = "furoregt"
+[+] Maibatsu Penumbra FF, Model ID = "penumbra2"
+[+] Obey Tailgater S, Model ID = "tailgater2"
+[+] Ocelot F620, Model ID = "f620"
+[+] Ocelot Jackal, Model ID = "jackal"
+[+] Schyster Deviant, Model ID = "deviant"
+[+] Übermacht Sentinel, Model ID = "sentinel"
+[+] Übermacht Sentinel XS, Model ID = "sentinel2"
+[+] Übermacht Oracle, Model ID = "oracle"
+[+] Übermacht Oracle XS, Model ID = "oracle2"
+[+] Übermacht Sentinel Classic, Model ID = "sentinel3"
+[+] Übermacht Zion Classic, Model ID = "zion3"
+[+] Vapid Ellie, Model ID = "ellie"
+[+] Vapid Flash GT, Model ID = "flashgt"
+[+] Annis Remus, Model ID = "remus"
+[+] Vapid Retinue, Model ID = "retinue"
+[+] Vapid Retinue Mk II, Model ID = "retinue2"
+[+] Willard Faction, Model ID = "faction"
+[+] Willard Faction Custom, Model ID = "faction2"
+
+
+
+ -->
    <HandlingData>  
 
 <!--  -->
@@ -444,16 +517,16 @@
       <fTractionCurveMin value="2.170000" />
       <fTractionCurveLateral value="22.500000" />
       <fTractionSpringDeltaMax value="0.150000" />
-      <fLowSpeedTractionLossMult value="0.6500000" />
+      <fLowSpeedTractionLossMult value="0.4500000" />
       <fCamberStiffnesss value="0.000000" />
       <fTractionBiasFront value="0.486000" />
       <fTractionLossMult value="1.000000" />
       <fSuspensionForce value="2.100000" />
-      <fSuspensionCompDamp value="1.700000" />
+      <fSuspensionCompDamp value="1.900000" />
       <fSuspensionReboundDamp value="2.200000" />
-      <fSuspensionUpperLimit value="0.1150000" />
+      <fSuspensionUpperLimit value="0.09150000" />
       <fSuspensionLowerLimit value="-0.09000" />
-      <fSuspensionRaise value="0.015000" />
+      <fSuspensionRaise value="0.035000" />
       <fSuspensionBiasFront value="0.530000" />
       <fAntiRollBarForce value="0.975000" />
       <fAntiRollBarBiasFront value="0.530000" />
@@ -738,7 +811,7 @@
       <fClutchChangeRateScaleUpShift value="2.200000" />
       <fClutchChangeRateScaleDownShift value="2.200000" />
       <fInitialDriveMaxFlatVel value="135.000000" />
-      <fBrakeForce value="0.4500000" />
+      <fBrakeForce value="0.5500000" />
       <fBrakeBiasFront value="0.450000" />
       <fHandBrakeForce value="0.600000" />
       <fSteeringLock value="33.000000" />
@@ -746,7 +819,7 @@
       <fTractionCurveMin value="2.170000" />
       <fTractionCurveLateral value="22.500000" />
       <fTractionSpringDeltaMax value="0.150000" />
-      <fLowSpeedTractionLossMult value="0.6500000" />
+      <fLowSpeedTractionLossMult value="0.4500000" />
       <fCamberStiffnesss value="0.000000" />
       <fTractionBiasFront value="0.487000" />
       <fTractionLossMult value="1.000000" />
@@ -1433,7 +1506,7 @@
       <fTractionCurveMin value="2.170000" />
       <fTractionCurveLateral value="22.500000" />
       <fTractionSpringDeltaMax value="0.150000" />
-      <fLowSpeedTractionLossMult value="0.6500000" />
+      <fLowSpeedTractionLossMult value="0.41500000" />
       <fCamberStiffnesss value="0.000000" />
       <fTractionBiasFront value="0.489500" />
       <fTractionLossMult value="1.000000" />
@@ -1873,9 +1946,9 @@
       <fSuspensionForce value="2.100000" />
       <fSuspensionCompDamp value="1.700000" />
       <fSuspensionReboundDamp value="2.200000" />
-      <fSuspensionUpperLimit value="0.090000" />
+      <fSuspensionUpperLimit value="0.060000" />
       <fSuspensionLowerLimit value="-0.080000" />
-      <fSuspensionRaise value="0.000000" />
+      <fSuspensionRaise value="0.0500000" />
       <fSuspensionBiasFront value="0.400000" />
       <fAntiRollBarForce value="0.200000" />
       <fAntiRollBarBiasFront value="0.650000" />
@@ -1936,9 +2009,9 @@
       <fSuspensionForce value="2.100000" />
       <fSuspensionCompDamp value="1.700000" />
       <fSuspensionReboundDamp value="2.200000" />
-      <fSuspensionUpperLimit value="0.100000" />
+      <fSuspensionUpperLimit value="0.130000" />
       <fSuspensionLowerLimit value="-0.100000" />
-      <fSuspensionRaise value="0.000000" />
+      <fSuspensionRaise value="0.0500000" />
       <fSuspensionBiasFront value="0.460000" />
       <fAntiRollBarForce value="0.200000" />
       <fAntiRollBarBiasFront value="0.650000" />
@@ -2286,6 +2359,69 @@
     </Item>
 
 
+    <Item type="CHandlingData">
+      <handlingName>FUTO</handlingName>
+      <fMass value="1150.000000" />
+      <fInitialDragCoeff value="5.65000" />
+      <fPercentSubmerged value="85.000000" />
+      <vecCentreOfMassOffset x="0.000000" y="0.000000" z="0.000000" />
+      <vecInertiaMultiplier x="1.200000" y="1.200000" z="1.600000" />
+      <fDriveBiasFront value="0.000000" />
+      <nInitialDriveGears value="5" />
+      <fInitialDriveForce value="0.24900000" />
+      <fDriveInertia value="1.000000" />
+      <fClutchChangeRateScaleUpShift value="2.200000" />
+      <fClutchChangeRateScaleDownShift value="2.200000" />
+      <fInitialDriveMaxFlatVel value="145.000000" />
+      <fBrakeForce value="0.4500000" />
+      <fBrakeBiasFront value="0.650000" />
+      <fHandBrakeForce value="0.450000" />
+      <fSteeringLock value="33.000000" />
+      <fTractionCurveMax value="2.500000" />
+      <fTractionCurveMin value="2.270000" />
+      <fTractionCurveLateral value="22.500000" />
+      <fTractionSpringDeltaMax value="0.150000" />
+      <fLowSpeedTractionLossMult value="0.42000000" />
+      <fCamberStiffnesss value="0.000000" />
+      <fTractionBiasFront value="0.500000" />
+      <fTractionLossMult value="1.000000" />
+      <fSuspensionForce value="3.000000" />
+      <fSuspensionCompDamp value="1.800000" />
+      <fSuspensionReboundDamp value="2.800000" />
+			<fSuspensionUpperLimit value="0.1100000000000" />
+      <fSuspensionLowerLimit value="-0.100000" />
+      <fSuspensionRaise value="0.000000" />
+      <fSuspensionBiasFront value="0.500000" />
+      <fAntiRollBarForce value="0.500000" />
+      <fAntiRollBarBiasFront value="0.470000" />
+      <fRollCentreHeightFront value="0.200000" />
+      <fRollCentreHeightRear value="0.250000" />
+      <fCollisionDamageMult value="1.000000" />
+      <fWeaponDamageMult value="1.000000" />
+      <fDeformationDamageMult value="0.800000" />
+      <fEngineDamageMult value="1.500000" />
+      <fPetrolTankVolume value="65.000000" />
+      <fOilVolume value="5.000000" />
+      <fSeatOffsetDistX value="0.000000" />
+      <fSeatOffsetDistY value="0.000000" />
+      <fSeatOffsetDistZ value="0.100000" />
+      <nMonetaryValue value="100000" />
+      <strModelFlags>440010</strModelFlags>
+      <strHandlingFlags>1</strHandlingFlags>
+      <strDamageFlags>0</strDamageFlags>
+      <AIHandling>SPORTS_CAR</AIHandling>
+      <SubHandlingData>
+        <Item type="CCarHandlingData">
+          <fBackEndPopUpCarImpulseMult value="0.100000" />
+          <fBackEndPopUpBuildingImpulseMult value="0.030000" />
+          <fBackEndPopUpMaxDeltaSpeed value="0.600000" />
+        </Item>
+        <Item type="NULL" />
+        <Item type="NULL" />
+      </SubHandlingData>
+    </Item>
+
+
 	<Item type="CHandlingData">
       <handlingName>FUTO2</handlingName>
       <fMass value="1150.000000" />
@@ -2308,12 +2444,12 @@
       <fTractionCurveMin value="2.270000" />
       <fTractionCurveLateral value="22.500000" />
       <fTractionSpringDeltaMax value="0.150000" />
-      <fLowSpeedTractionLossMult value="0.4500000" />
+      <fLowSpeedTractionLossMult value="0.4200000" />
       <fCamberStiffnesss value="0.000000" />
       <fTractionBiasFront value="0.500000" />
       <fTractionLossMult value="1.000000" />
       <fSuspensionForce value="2.100000" />
-      <fSuspensionCompDamp value="1.700000" />
+      <fSuspensionCompDamp value="1.900000" />
       <fSuspensionReboundDamp value="2.200000" />
       <fSuspensionUpperLimit value="0.1100000" />
       <fSuspensionLowerLimit value="-0.110000" />
@@ -2627,7 +2763,7 @@
       <fSuspensionReboundDamp value="2.200000" />
       <fSuspensionUpperLimit value="0.1150000" />
       <fSuspensionLowerLimit value="-0.080000" />
-      <fSuspensionRaise value="0.000000" />
+      <fSuspensionRaise value="0.0400000" />
       <fSuspensionBiasFront value="0.480000" />
       <fAntiRollBarForce value="1.000000" />
       <fAntiRollBarBiasFront value="0.600000" />
@@ -2813,9 +2949,9 @@
       <fSuspensionForce value="2.100000" />
       <fSuspensionCompDamp value="1.700000" />
       <fSuspensionReboundDamp value="2.200000" />
-      <fSuspensionUpperLimit value="0.1150000" />
+      <fSuspensionUpperLimit value="0.1250000" />
       <fSuspensionLowerLimit value="-0.100000" />
-      <fSuspensionRaise value="0.000000" />
+      <fSuspensionRaise value="0.0500000" />
       <fSuspensionBiasFront value="0.550000" />
       <fAntiRollBarForce value="1.000000" />
       <fAntiRollBarBiasFront value="0.650000" />

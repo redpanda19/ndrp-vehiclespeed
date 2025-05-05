@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CHandlingDataMgr>
+
+<!--VEHICLES STATUS 
+             [-] In progress
+             [+] Completed 
+             [x] Broken
+
+
+[-] Car Name, Model ID = " "
+
+
+
+ -->
+  <HandlingData>  
+<!--  -->
+
+
+<!--  -->
+  </HandlingData>
+</CHandlingDataMgr>

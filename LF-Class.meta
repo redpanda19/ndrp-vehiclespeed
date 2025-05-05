@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CHandlingDataMgr>
+
+<!--VEHICLES STATUS 
+             [-] In progress
+             [+] Completed 
+             [x] Broken
+
+
+[-] Car Name, Model ID = " "
+
+
+
+ -->
+  <HandlingData>  
+<!--  -->
+
+                <!-- D-Class Lore Friendly:-->
+
+     
+                <!-- C-Class Lore Friendly:-->
+
+   
+                <!-- B-Class Lore Friendly:-->
+
+   
+                <!-- A-Class Lore Friendly:-->
+
+   
+                <!-- S-Class Lore Friendly:-->
+
+   
+                <!-- U-Class Lore Friendly:-->
+
+   
+                <!-- V-Class Lore Friendly:-->
+
+
+                <!-- M-Class Lore Friendly:-->
+   
+   
+                <!-- O-Class Lore Friendly:-->
+   
+   
+                <!-- DR-Class Lore Friendly:-->
+   
+
+
+<!--  -->
+  </HandlingData>
+</CHandlingDataMgr>
